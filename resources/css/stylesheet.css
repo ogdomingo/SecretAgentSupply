@@ -19,6 +19,39 @@ header span {
 
 header img {
   padding-left: 0.5rem;
-  margin-left: 100px;
+  margin-left: 5.5rem;
   height: 1.5rem;
+}
+
+/*Motorcycles*/
+
+.bike {
+  height: 25rem;
+  background-image: url("../images/moto.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.bike .text-content {
+  display: block;
+  background-color: black;
+  width: 20rem;
+  height: auto;
+  padding: 1.75rem 2.75rem;
+  margin-left: 5.5rem;
+  margin-top: 9rem;
+}
+
+.text-content h4 {
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 0.25rem;
+}
+
+.text-content h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 0.25rem;
+  line-height: 2.5rem;
 }
