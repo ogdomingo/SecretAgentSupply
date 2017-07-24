@@ -24,7 +24,7 @@ header span {
 
 header img {
   padding-left: 0.5rem;
-  margin-left: 5.5rem;
+  margin-left: 9rem;
   height: 1.5rem;
 }
 
@@ -44,7 +44,7 @@ header img {
   width: 20rem;
   height: auto;
   padding: 1.75rem 2.75rem;
-  margin-left: 5.5rem;
+  margin-left: 9rem;
   margin-top: 9rem;
 }
 
@@ -66,6 +66,83 @@ header img {
   justify-content: space-between;
   align-items: center;
   max-width: 100%;
-  padding: 0.75rem 5.5rem;
+  padding: 0.75rem 9rem;
   background-color: firebrick;
 }
+
+/*Products*/
+
+.items {
+  display: flex;
+  justify-content: space-between;
+  margin: 3rem 9rem;
+}
+
+.item {
+  width: 30%;
+  height: 20rem;
+}
+
+.item h4 {
+  text-align: center;
+  background-color: black;
+  width: auto;
+  padding: 0.5rem 0;
+}
+
+.image-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 9rem;
+  max-width: auto;
+  padding: 2rem 0;
+  border: 4px solid black;
+  overflow: hidden;
+}
+
+.image-content img {
+  max-width: 8rem;
+}
+
+
+
+
+
+
+
+
+/*Products
+
+.items {
+  display: flex;
+  justify-content: space-between;
+  margin: 3rem 5.5rem;
+}
+
+.item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 30%;
+}
+
+.item img {
+  max-height: 9rem;
+  border: 4px solid black;
+  max-width: 12.5rem;
+  overflow: hidden;
+  margin: 2rem;
+}
+
+
+.item h4 {
+  background-color: black;
+  width: 100%;
+  text-align: center;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  align-self: baseline;
+}
+*/
