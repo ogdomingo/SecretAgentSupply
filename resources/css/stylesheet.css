@@ -192,7 +192,17 @@ footer {
   }
 }
 
-@media only screen and (max-width: 600px) and (orientation: portrait){
+@media only screen and (max-width: 470px) and (orientation: portrait){
+  header span {
+    display: none;
+  }
+
+  header img {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0.3rem 0;
+  }
+
   .bike {
     height: 15rem;
   }
